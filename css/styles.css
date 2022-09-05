@@ -5,7 +5,7 @@
 --main-color: #212121;
 --subcolor: #757575;
 --secondary-color: #FFFFFF;
---transition-dur-and-func: 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+--transition-dur-and-func: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 html{
@@ -584,12 +584,14 @@ margin-top: 9px;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.1);
     cursor: pointer;
+    transition: background-color var(--transition-dur-and-func);
+    background-color: var(--accent-color);
 }
 
 .footer-clients-list:hover,
 .footer-clients-list:focus {
     transition: background-color var(--transition-dur-and-func);
-    background-color: #2196F3;
+    background-color: var(--accent-color);
 }
 
 .footer-list-icon {
@@ -799,6 +801,10 @@ margin-top: 9px;
 
 .portfolio-card:hover .portfolio-overlay,
 .portfolio-card:focus .portfolio-overlay {
+    transform: translate(0, 0);
+}
+.portfolio-link:hover .portfolio-overlay,
+.portfolio-link:focus .portfolio-overlay {
     transform: translate(0, 0);
 }
 /* PORTFOLIO SECTION */
