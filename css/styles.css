@@ -520,7 +520,14 @@ padding-top: 0px;
     letter-spacing: 0.03em;
     color: var(--secondary-color);
     min-width: 231px;
+    transition: color var(--transition-dur-and-func);
 }
+
+.street-adress:hover,
+.street-adress:focus {
+    color: var(--accent-color);
+}
+
 .footer-adress{
 display: inline-block;
 margin-top: 20px;
@@ -541,17 +548,31 @@ margin-top: 9px;
     /* or 171% */
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    transition: color var(--transition-dur-and-func);
 }
+
+.footer-email:hover,
+.footer-email:focus {
+    color: var(--accent-color);
+}
+
 .footer-tel {
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.7;
-        /* or 171% */
-        letter-spacing: 0.03em;
-    
-        color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    /* or 171% */
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
+    transition: color var(--transition-dur-and-func);
 }
+
+.footer-tel:hover,
+.footer-tel:focus {
+    color: var(--accent-color);
+}
+
 .footer{
     background: #2F303A;
     padding-top: 60px;
