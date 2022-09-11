@@ -153,6 +153,8 @@ align-items: center;
 padding-top: 24px;
 padding-bottom: 25px;
 border-bottom: 1px solid grey;
+max-width: 1600px;
+margin: auto;
 }
 
 .menu {
@@ -386,6 +388,8 @@ padding-top: 0px;
 /* TEAM */
 .section-team {
     background: #F5F4FA;
+    max-width: 1600px;
+    margin: auto;
 }
 .employees {
     display: flex;
@@ -577,6 +581,8 @@ margin-top: 9px;
     background: #2F303A;
     padding-top: 60px;
     padding-bottom: 60px;
+    max-width: 1600px;
+        margin: auto;
  
 }
 .footer-social-list {
