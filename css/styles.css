@@ -114,7 +114,7 @@ body {
     cursor: pointer;
 }
 .menu-contacts {
-    align-items: center;
+    
     color: var(--subcolor);
     transition: color var(--transition-dur-and-func);
 }
@@ -153,8 +153,6 @@ align-items: center;
 padding-top: 24px;
 padding-bottom: 25px;
 border-bottom: 1px solid grey;
-max-width: 1600px;
-margin: auto;
 }
 
 .menu {
@@ -179,6 +177,8 @@ margin-left: auto;
     color: currentColor;
     margin-left:auto;
     transition: color var(--transition-dur-and-func);
+    display: flex;
+    align-items: center;
 }
 
 .email:hover,
@@ -213,18 +213,13 @@ margin-left: auto;
     line-height: 1.14;
     letter-spacing: 0.02em;
     transition: color var(--transition-dur-and-func);
-
     color: currentColor;
-
+    display: flex;
+    align-items: center;
 }
 
 .email:hover,
 .email:focus {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-
     color: var(--accent-color);
     
 }
@@ -581,8 +576,6 @@ margin-top: 9px;
     background: #2F303A;
     padding-top: 60px;
     padding-bottom: 60px;
-    max-width: 1600px;
-        margin: auto;
  
 }
 .footer-social-list {
