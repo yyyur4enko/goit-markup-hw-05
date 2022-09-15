@@ -206,7 +206,6 @@ body {
     letter-spacing: 0.02em;
     color: currentColor;
     margin-left: auto;
-    /* transition: color var(--transit-dur-and-func); */
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -586,7 +585,6 @@ body {
     letter-spacing: 0.03em;
     color: var(--secondary-color);
     min-width: 231px;
-    /* transition: color var(--transit-dur-and-func); */
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -624,7 +622,6 @@ body {
     /* or 171% */
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
-    /* transition: color var(--transit-dur-and-func); */
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -878,7 +875,7 @@ body {
     background: var(--secondary-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0;
-    /* transition: border-color var(--transit-dur-and-func); */
+  
     transition-property: border-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -893,7 +890,6 @@ body {
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    /* transition: fill var(--transit-dur-and-func); */
 }
 
 .modal-close-btn:hover .modal-close-btn-icon,
@@ -935,8 +931,6 @@ body {
 
 .modal-form-input-desc {
     display: block;
-    /* font-family: var(--primary-font);
-    font-weight: 400; */
     font-size: 12px;
     line-height: 1.16;
     /* identical to box height */
@@ -953,7 +947,6 @@ body {
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     padding-left: 42px;
-    /* transition: border-color var(--transit-dur-and-func); */
     transition-property: border-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -966,7 +959,6 @@ body {
 
 .modal-form-input:focus+.modal-form-icon {
     fill: var(--accent-color);
-    /* transition: fill var(--transit-dur-and-func) */
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
